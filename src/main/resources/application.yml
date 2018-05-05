@@ -1,9 +1,5 @@
-server:
-  port: 8080
-  servlet:
-    context-path: /cgw
-config1: learnSpringBoot
-config2: "hellow,${config1}"
-config:
-  createdDate: 2018/5/5
-  place: home
+spring:
+  profiles:
+    active: dev
+#      - prod
+#      - dev
